@@ -19,8 +19,16 @@ const FeaturedProject = ({ onProjectClick }) => {
         {/* Left Side: Full-width borderless image */}
         <motion.div 
           layoutId={`project-image-${FEATURED_PROJECT.id}`}
-          className={`w-full lg:w-[55%] h-[240px] lg:h-[380px] bg-gradient-to-br ${FEATURED_PROJECT.gradient} relative overflow-hidden`}
-        />
+          className={`w-full lg:w-[55%] h-[240px] lg:h-[380px] ${FEATURED_PROJECT.image ? 'bg-zinc-900' : `bg-gradient-to-br ${FEATURED_PROJECT.gradient}`} relative overflow-hidden`}
+        >
+          {FEATURED_PROJECT.image && (
+            <img 
+              src={FEATURED_PROJECT.image} 
+              alt={FEATURED_PROJECT.title} 
+              className="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+            />
+          )}
+        </motion.div>
 
         {/* Right Side: Content */}
         <div className="w-full lg:w-[45%] p-8 lg:p-10 flex flex-col justify-center">
