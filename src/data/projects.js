@@ -4,8 +4,8 @@ export const FEATURED_PROJECT = {
   description: "**Student Hub** is a full-stack student management and learning platform that combines attendance, assignments, courses, resources, real-time messaging, academic scheduling, and AI-powered study tools into one modern, responsive Web application.",
   tech: ["React", "Python", "HTML", "CSS", "JavaScript", "SQL", "Shell scripting"],
   gradient: "from-blue-950/30 via-zinc-900 to-zinc-900",
-  github: "galcharjaswant01-code/Student",
-  live: "frontend-sandy-theta-42.vercel.app",
+  github: "https://github.com/galcharjaswant01-code/Student",
+  live: "https://frontend-sandy-theta-42.vercel.app",
   features: [
     "📊 Smart Dashboard & Attendance Analytics",
     "💬 Real-time WhatsApp-style Student–Teacher Messaging",
