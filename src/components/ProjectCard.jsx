@@ -17,8 +17,16 @@ const ProjectCard = ({ project, onClick }) => {
       {/* Full-width borderless image header */}
       <motion.div 
         layoutId={`project-image-${project.id}`}
-        className={`w-full h-44 bg-gradient-to-br ${project.gradient} relative overflow-hidden`}
-      />
+        className={`w-full h-44 ${project.image ? 'bg-zinc-900' : `bg-gradient-to-br ${project.gradient}`} relative overflow-hidden`}
+      >
+        {project.image && (
+          <img 
+            src={project.image} 
+            alt={project.title} 
+            className="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+          />
+        )}
+      </motion.div>
 
       {/* Card Content */}
       <div className="p-5 flex flex-col h-[calc(100%-11rem)] justify-between">

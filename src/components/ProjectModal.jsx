@@ -40,8 +40,16 @@ const ProjectModal = ({ project, onClose }) => {
         {/* Left Side: Full-width borderless image */}
         <motion.div 
           layoutId={`project-image-${project.id}`}
-          className={`w-full md:w-1/2 h-48 md:h-auto bg-gradient-to-br ${project.gradient} relative overflow-hidden`}
-        />
+          className={`w-full md:w-1/2 h-48 md:h-auto ${project.image ? 'bg-zinc-900' : `bg-gradient-to-br ${project.gradient}`} relative overflow-hidden`}
+        >
+          {project.image && (
+            <img 
+              src={project.image} 
+              alt={project.title} 
+              className="w-full h-full object-cover object-top opacity-90"
+            />
+          )}
+        </motion.div>
 
         {/* Right Side: Details Area */}
         <div className="w-full md:w-1/2 p-8 md:p-12 overflow-y-auto">
