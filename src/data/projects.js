@@ -17,6 +17,7 @@ export const FEATURED_PROJECT = {
 };
 
 export const PROJECTS = [
+  /*
   {
     id: "project-1",
     title: "Quantum E-Commerce",
@@ -72,4 +73,5 @@ export const PROJECTS = [
     features: ["Interactive Sequencing", "Web Audio API", "3D Track Visualization"],
     overview: "Make music in your browser by connecting glowing 3D nodes in a cinematic, spatial environment."
   }
+  */
 ];
