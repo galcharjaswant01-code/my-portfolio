@@ -1,16 +1,16 @@
 export const FEATURED_PROJECT = {
   id: "project-0",
-  title: "Nexus Holographic Dashboard",
-  description: "A futuristic 3D data visualization dashboard built for enterprise scale. Features real-time volumetric rendering, interactive data nodes, and an AI-driven insights engine. Designed to feel like a cinematic sci-fi interface.",
-  tech: ["React", "Three.js", "WebGL", "Framer Motion"],
+  title: "Student_Hub",
+  description: "**Student Hub** is a full-stack student management and learning platform that combines attendance, assignments, courses, resources, real-time messaging, academic scheduling, and AI-powered study tools into one modern, responsive Web application.",
+  tech: ["React", "Python", "HTML", "CSS", "JavaScript", "SQL", "Shell scripting"],
   gradient: "from-blue-950/30 via-zinc-900 to-zinc-900",
-  github: "https://github.com/galcharjaswant01-code",
-  live: "https://github.com/galcharjaswant01-code",
+  github: "galcharjaswant01-code/Student",
+  live: "frontend-sandy-theta-42.vercel.app",
   features: [
-    "Real-time Volumetric Rendering",
-    "AI-driven Insights Engine",
-    "Cinematic UI Transitions",
-    "Advanced WebGL Shaders"
+    "📊 Smart Dashboard & Attendance Analytics",
+    "💬 Real-time WhatsApp-style Student–Teacher Messaging",
+    "📚 Courses, Assignments & Learning Resources",
+    "🤖 AI Study Assistant & Personalized Study Planner",
   ],
   overview: "Nexus is a breakthrough in web-based 3D visualization, transforming flat data into immersive holographic environments."
 };
