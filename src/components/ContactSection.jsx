@@ -55,7 +55,7 @@ const ContactSection = () => {
         className="mb-12 md:mb-16 text-center relative z-10 w-full"
       >
         <div className="inline-flex items-center justify-center px-5 py-2 mb-6 rounded-full border border-white/[0.08] bg-white/[0.02] backdrop-blur-md text-white/60 text-[11px] font-medium tracking-[0.2em] uppercase shadow-[inset_0_1px_1px_rgba(255,255,255,0.04)]">
-          System Terminal
+          Contact
         </div>
         <h2 className="text-3xl sm:text-4xl md:text-6xl font-display font-black leading-tight text-white mb-4 md:mb-6">
           Establish{' '}

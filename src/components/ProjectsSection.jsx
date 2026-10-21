@@ -18,7 +18,7 @@ const ProjectsSection = () => {
         className="mb-16 text-center"
       >
         <div className="inline-flex items-center justify-center px-5 py-2 mb-6 rounded-full border border-white/[0.08] bg-white/[0.02] backdrop-blur-md text-white/60 text-[11px] font-medium tracking-[0.2em] uppercase shadow-[inset_0_1px_1px_rgba(255,255,255,0.04)]">
-          Portfolio
+          Projects
         </div>
         <h2 className="text-3xl md:text-5xl font-display font-black leading-tight text-white mb-6">
           Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Projects</span>
