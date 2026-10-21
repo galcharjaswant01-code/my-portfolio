@@ -19,14 +19,22 @@ export const FEATURED_PROJECT = {
 export const PROJECTS = [
   {
     id: "project-1",
-    title: "ROOM BOOKING",
-    description: "Find rooms that fit your lifestyle and budget. Explore real property listings, check prices and amenities, discover locations on the map, and book your perfect room—all in one place. A smarter, simpler way to find your next home.",
-    tech: ["Next.js", "React", "Python", "Ai Tools"],
-    gradient: "from-zinc-900 via-blue-950/20 to-zinc-900",
+    title: "StayHub – Room & PG Booking",
+    description: "Modern room rental platform designed for students and professionals to search, filter by budget, and book verified rooms, PGs, and apartments with a dedicated owner dashboard.",
+    tech: ["Next.js", "React", "Python", "Tailwind CSS", "AI Tools"],
+    gradient: "from-purple-950/30 via-zinc-900 to-zinc-900",
+    image: "/images/room_booking.png",
     github: "https://github.com/galcharjaswant01-code",
     live: "https://room-navy.vercel.app/",
-    features: ["Smart Room Search", "Interactive Map Integration", "Room Images and Gallery", "Online Room Booking", "Secure Authentication", "Real-Time Booking Notifications", "Owner Dashboard", "Analytics and Earnings"],
-    overview: "The Room Rental and Booking System is a web-based platform that helps users find, explore, and book rooms based on their location, budget, and preferences. It connects tenants with property owners and managers through room listings, interactive maps, secure booking, online payments, and real-time notifications."
+    features: [
+      "🏡 Smart Room & PG Search with Quick Category Filters (Students, 1BHK, Furnished, Under ₹10K)",
+      "📍 Location & Budget-based Discovery",
+      "👑 Dedicated Property Owner Dashboard & Real-time Booking Notifications",
+      "📸 Verified Property Listings with Image Galleries & Amenities",
+      "🔒 Secure Authentication & Tenant Profiles",
+      "⚡ Real-Time Booking & Direct Owner Connection"
+    ],
+    overview: "StayHub is an intuitive web-based room rental and booking platform that helps users find, explore, and book living spaces tailored to their location and budget. It connects tenants with property managers through verified listings, flexible category filtering, interactive discovery, and a streamlined owner management portal."
   }
 ];
   /*
