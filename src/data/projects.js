@@ -17,18 +17,19 @@ export const FEATURED_PROJECT = {
 };
 
 export const PROJECTS = [
-  /*
   {
     id: "project-1",
-    title: "Quantum E-Commerce",
-    description: "High-performance headless storefront with immersive 3D product configurators.",
-    tech: ["Next.js", "React Three Fiber", "Tailwind"],
+    title: "ROOM BOOKING",
+    description: "Find rooms that fit your lifestyle and budget. Explore real property listings, check prices and amenities, discover locations on the map, and book your perfect room—all in one place. A smarter, simpler way to find your next home.",
+    tech: ["Next.js", "React", "Python", "Ai Tools"],
     gradient: "from-zinc-900 via-blue-950/20 to-zinc-900",
     github: "https://github.com/galcharjaswant01-code",
-    live: "https://github.com/galcharjaswant01-code",
-    features: ["3D Product Configurator", "Headless CMS", "Sub-second Load Times"],
-    overview: "A premium shopping experience that blends high-end fashion aesthetics with interactive 3D elements."
-  },
+    live: "https://room-navy.vercel.app/",
+    features: ["Smart Room Search", "Interactive Map Integration", "Room Images and Gallery", "Online Room Booking", "Secure Authentication", "Real-Time Booking Notifications", "Owner Dashboard", "Analytics and Earnings"],
+    overview: "The Room Rental and Booking System is a web-based platform that helps users find, explore, and book rooms based on their location, budget, and preferences. It connects tenants with property owners and managers through room listings, interactive maps, secure booking, online payments, and real-time notifications."
+  }
+];
+  /*
   {
     id: "project-2",
     title: "Aura AI Assistant",
@@ -74,4 +75,4 @@ export const PROJECTS = [
     overview: "Make music in your browser by connecting glowing 3D nodes in a cinematic, spatial environment."
   }
   */
-];
+
